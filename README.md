@@ -24,6 +24,8 @@ This repository serves as a foundational framework for teams and developers who 
 ai-pair-programming-with-cline/
 ├── LICENSE                          # MIT License
 ├── README.md                        # This file
+├── .clinerules/                     # Cline-specific configurations
+│   └── LOGS.md                     # Project logging and tracking template
 └── Cline/                           # Cline-specific configurations
     ├── Rules/                       # Custom rules and guidelines
     │   ├── Clean-code.md           # Clean code principles and standards
@@ -40,7 +42,6 @@ ai-pair-programming-with-cline/
 
 - Basic understanding of AI-assisted development
 - Familiarity with Cline (AI coding assistant)
-- Understanding of clean code principles
 
 ### Installation
 
@@ -168,6 +169,7 @@ We welcome contributions that enhance AI pair programming practices! Please:
 - **[Requirements Management](Cline/Rules/Requirements.md)**: Systematic approach to requirements
 - **[Code Review Workflow](Cline/Workflows/code-review.md)**: Structured review process
 - **[Logging Workflow](Cline/Workflows/logs.md)**: Project tracking and documentation
+- **[LOGS Template](.clinerules/LOGS.md)**: Project logging and tracking template
 
 ## 📄 License
 
@@ -178,15 +180,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Inspired by clean code principles and best practices
 - Designed for effective AI-human collaboration
 - Built for the developer community
-
-## 📞 Support
-
-For questions, suggestions, or issues:
-
-1. Check the existing documentation in `Cline/Rules/` and `Cline/Workflows/`
-2. Review the requirements management guidelines
-3. Follow the established workflows for project management
-
----
 
 **Happy AI-assisted coding!** 🚀
