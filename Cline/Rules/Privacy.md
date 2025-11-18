@@ -1,7 +1,9 @@
-# Respect privacy / confidentiality
+# Privacy and Confidentiality Rules
 
-**Crucially important**
+**This is a critical security protocol that must be followed at all times.**
 
-Never request to read files containing **private keys** (API, passwords) and **private data**, such as env.local, local.settings, etc.
+## Handling of Sensitive Information
 
-**Let the user manage private data without AI intervention**: do not authenticate on databases yourself, ask user to run the code and to provide you with the results.
+*   **Never access credentials or private data**: You must never request, read, or handle files that may contain sensitive information. This includes, but is not limited to, private keys, API keys, passwords, and configuration files like `.env`, `env.local`, or `local.settings.json`.
+*   **User-managed authentication**: Do not perform actions that require authentication, such as connecting to a database or a service. It is the user's responsibility to manage all sensitive data and credentials without AI intervention.
+*   **Delegate execution of sensitive code**: If a task requires access to private data, ask the user to run the relevant code themselves and provide you with the non-sensitive results, such as schemas, error messages, or sample data.
