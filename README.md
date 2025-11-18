@@ -28,12 +28,13 @@ ai-pair-programming-with-cline/
 │   └── LOGS.md                     # Project logging and tracking template
 └── Cline/                           # Cline-specific configurations
     ├── Rules/                       # Custom rules and guidelines
+    │   ├── Ask followup questions.md # Guidelines for asking follow-up questions
     │   ├── Clean-code.md           # Clean code principles and standards
-    │   ├── Privacy.md              # Privacy and security guidelines
-    │   └── Requirements.md         # Requirements gathering and management
+    │   ├── Non regression.md       # Non-regression rules to prevent unintended side effects
+    │   └── Privacy.md              # Privacy and security guidelines
     └── Workflows/                   # Development workflows
         ├── code-review.md          # Code review guidelines and templates
-        └── logs.md                 # Project logging and tracking workflow
+        └── update-logs.md          # Project logging and tracking workflow
 ```
 
 ## 🛠️ Getting Started
